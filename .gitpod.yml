@@ -1,0 +1,5 @@
+ports:
+- port: 8001
+- port: 8443
+tasks:
+- command: /usr/sbin/apachectl start
